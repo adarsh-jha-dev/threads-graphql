@@ -11,5 +11,5 @@ services:
       - POSTGRES_USER=postgres
       - POSTGRES_PASSWORD=threads
       - POSTGRES_DB=threads
-  volumes:
-    postgres_data:
+volumes:
+  postgres_data:
